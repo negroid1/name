@@ -1,12 +1,10 @@
 from flask import Flask
 
 
-app = Flask("index")
+app = Flask(_name_)
 
 
 @app.route('/')
 def index():
-  return "hello world"
-  
-  
-  app.run(port='8000')
+  return "hello world
+app.run(port='8000')
